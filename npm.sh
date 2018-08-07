@@ -1,15 +1,35 @@
+#!/bin/sh
 
-npm install nodemon -g
-npm install cnpm -g
-npm install yarn -g
-npm install hexo-cli -g
-npm install commitizen -g
-npm install pm2 -g
-npm install npx -g
-npm install hiper -g
-npm install mocha -g
-npm install standard-version -g
+# install npm packages
+# use `npm list -g --depth=0` to see which packages to be installed
+#
+npm install -g nodemon
+npm install -g hexo-cli
+npm install -g commitizen
+npm install -g pm2
+npm install -g hiper
+npm install -g mocha
+npm install -g standard-version
+
+# npm supplements
+npm install -g npx
+npm install -g nrm
+npm install -g cnpm
+npm install -g yarn
+npm install -g npm-check
+
+# scaffolding tools
+npm install vue-cli -g
 npm install create-react-app -g
+
+# building tools
+npm install gulp-cli -g
+npm install grunt-cli -g
+
+# blockchains
+npm install solc -g
+npm install truffle -g
+npm install ganache-cli -g
 
 # npm install -g aglio
 # npm install -g bower
@@ -21,13 +41,9 @@ npm install create-react-app -g
 # [sudo] npm install forever -g
 # npm install -g generator-alfred
 # npm install -g yo generator-kraken bower
-# npm install -g grunt-cli
-# npm install -g gulp-cli
 # npm install -g jshint
 # npm install -g less
-# npm install -g nrm
 # npm install -g pug-cli
 # npm install -g sails
 # npm install -g strongloop
-# npm install -g vue-cli
 # npm install -g yo
