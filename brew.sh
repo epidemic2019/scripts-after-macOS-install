@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# install homebrew
+############################# install homebrew #############################
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install homebrew packages
+############################# install brew packages #############################
 # tools
 brew install git
 brew install wget
@@ -44,8 +44,8 @@ brew install nginx
 brew install httpd
 
 # big data
-brew install zookeeper # jdk required
-brew install kafka # jdk and zookeeper required
+brew install zookeeper # jdk required, config file in /usr/local/etc/zookeeper/
+brew install kafka # jdk and zookeeper required, config file in /usr/local/etc/kafka/
 
 # env management tools
 brew install jenv
@@ -54,3 +54,11 @@ brew install rbenv
 
 # blockchains
 brew install ethereum
+
+############################# install brew cask packages #############################
+# quick-look-plugins see https://github.com/sindresorhus/quick-look-plugins
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlimagesize

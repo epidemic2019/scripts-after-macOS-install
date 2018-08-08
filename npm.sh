@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# install npm packages
+############################# install npm packages #############################
 # use `npm list -g --depth=0` to see which packages to be installed
-#
+
 npm install -g nodemon
 npm install -g hexo-cli
 npm install -g commitizen
