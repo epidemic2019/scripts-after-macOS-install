@@ -19,17 +19,17 @@ npm install -g yarn
 npm install -g npm-check
 
 # scaffolding tools
-npm install vue-cli -g
-npm install create-react-app -g
+npm install -g @vue/cli
+npm install -g create-react-app
 
 # building tools
-npm install gulp-cli -g
-npm install grunt-cli -g
+npm install -g gulp-cli
+npm install -g grunt-cli
 
 # blockchains
-npm install solc -g
-npm install truffle -g
-npm install ganache-cli -g
+npm install -g solc
+npm install -g truffle
+npm install -g ganache-cli
 
 # npm install -g aglio
 # npm install -g bower
