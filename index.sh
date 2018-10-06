@@ -1,3 +1,4 @@
+#!/bin/sh
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -5,3 +6,5 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sh brew.sh
 sh npm.sh
 sh document.sh
+sh pip.sh
+sh gem.sh

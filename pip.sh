@@ -1,4 +1,6 @@
+#!/bin/sh
 
+############################## install pip packages ##############################
 pip install builtwith
 pip install python-whois
 

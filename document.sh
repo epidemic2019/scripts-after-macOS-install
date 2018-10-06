@@ -1,5 +1,13 @@
 #!/bin/sh
 
+############################## GitRepos ##############################
+
+mkdir GitRepos
+git clone https://github.com/apprenticeharper/DeDRM_tools.git
+git clone https://github.com/dracula/iterm.git
+
+############################## WorkHome ##############################
+
 # GitHub
 cd ~/Document
 mkdir -p WorkHome/GitHub
@@ -17,11 +25,3 @@ cd ./WorkHome/BitBucket
 # DemoRepos
 cd ~/Document
 mkdir -p WorkHome/DemoRepos
-
-# GitRepos
-mkdir GitRepos
-git clone https://github.com/apprenticeharper/DeDRM_tools.git
-git clone https://github.com/dracula/iterm.git
-
-# CodeRuner
-mkdir CodeRunner
