@@ -40,7 +40,7 @@ brew install mongodb
 
 # server
 brew install tomcat # jdk required
-brew install nginx
+brew install nginx # config file in /usr/local/etc/nginx/
 brew install httpd
 
 # big data
