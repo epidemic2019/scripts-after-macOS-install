@@ -20,21 +20,23 @@ brew install telnet # conflicts with inetutils
 # install and config proxychains-ng
 brew install proxychains-ng
 mkdir ~/.proxychains && cd ~/.proxychains
-sed "/\[ProxyList\]/,\${/^[^#\[]/d;}" /usr/local/etc/proxychains.conf > proxychains.conf # modify sys proxychains.conf and save to user proxychains.conf
-echo "socks5 127.0.0.1 1086" >> proxychains.conf # write user config
+sed "/\[ProxyList\]/,\${/^[^#\[]/d;}" /usr/local/etc/proxychains.conf > proxychains.conf # edit sys proxychains.conf and save as user proxychains.conf
+echo "socks5 127.0.0.1 1086" >> proxychains.conf # add socks5 to user config
 
 ############### env management tools ###############
 
 # java env management
-brew install jenv
-echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(jenv init -)"' >> ~/.zshrc
+brew install jenv;
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc;
+echo 'eval "$(jenv init -)"' >> ~/.zshrc;
 
 # python env management
-brew install pyenv
+brew install pyenv;
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc;
 
 # ruby env management
-brew install rbenv
+brew install rbenv;
+echo 'eval "$(rbenv init -)"' >> .zshrc;
 
 # node env management
 brew install node;
@@ -42,8 +44,6 @@ brew install nvm;
 mkdir ~/.nvm
 echo 'export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc
-nvm install v6.14.4;
-nvm install v8.12.0;
 
 ############### language environment ###############
 brew install php;
@@ -52,8 +52,11 @@ brew install go;
 
 ############### project management tools ###############
 brew install composer;
+# todo: change composer source
 brew install maven; # jdk required and conflicts with mvnvm
+# todo: change maven source
 brew install gradle; # jdk required
+# todo: change gradle source
 
 ############### db ###############
 brew install redis;
@@ -69,6 +72,7 @@ brew install httpd;
 ############### distributed system  ###############
 brew install zookeeper; # jdk required, config file in /usr/local/etc/zookeeper/
 brew install kafka; # jdk and zookeeper required, config file in /usr/local/etc/kafka/
+# todo: edit kafka config
 
 ############### blockchains ###############
 brew install ethereum;
