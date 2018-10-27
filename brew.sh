@@ -38,11 +38,12 @@ brew install rbenv;
 echo 'eval "$(rbenv init -)"' >> .zshrc;
 
 # node env management
-brew install node;
 brew install nvm;
-mkdir ~/.nvm
+mkdir ~/.nvm;
 echo 'export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc
+  . "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc;
+nvm install --lts=Boron;
+nvm install --lts=Carbon;
 
 ############### language environment ###############
 brew install php;
