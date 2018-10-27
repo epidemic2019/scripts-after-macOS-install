@@ -3,10 +3,15 @@
 ############################## install homebrew ##############################
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+############################## install git ##############################
+brew install git
+
+############################## install oh-my-zsh ##############################
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 ############################## install brew packages ##############################
 
 ############### tools ###############
-brew install git
 brew install wget
 brew install tree
 brew install aria2
@@ -59,19 +64,20 @@ brew install gradle; # jdk required
 # todo: change gradle source
 
 ############### db ###############
-brew install redis;
+brew install redis; # config file /usr/local/etc/redis.conf
+brew install memcached;
 brew install mysql;
-brew install mongodb;
-brew install neo4j;
+brew install mongodb; # config file /usr/local/etc/mongod.conf
+brew install neo4j; 
 
 ############### server ###############
 brew install tomcat; # jdk required
-brew install nginx; # config file in /usr/local/etc/nginx/
+brew install nginx; # config file at /usr/local/etc/nginx/
 brew install httpd;
 
 ############### distributed system  ###############
-brew install zookeeper; # jdk required, config file in /usr/local/etc/zookeeper/
-brew install kafka; # jdk and zookeeper required, config file in /usr/local/etc/kafka/
+brew install zookeeper; # jdk required, config file at /usr/local/etc/zookeeper/
+brew install kafka; # jdk and zookeeper required, config file at /usr/local/etc/kafka/
 # todo: edit kafka config
 
 ############### blockchains ###############
@@ -84,3 +90,6 @@ brew cask install qlstephen;
 brew cask install qlmarkdown;
 brew cask install quicklook-json;
 brew cask install qlimagesize;
+
+# android related
+brew cask install android-platform-tools
