@@ -28,6 +28,11 @@ echo "socks5 127.0.0.1 1086" >> proxychains.conf # add socks5 to user config
 brew install jenv;
 echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc;
 echo 'eval "$(jenv init -)"' >> ~/.zshrc;
+mkdir -p ~/.jenv/versions
+for path in $(ls /Library/Java/JavaVirtualMachines)
+do
+	jenv add "/Library/Java/JavaVirtualMachines/$path/Contents/Home"	
+done
 
 # python env management
 brew install pyenv;
@@ -36,6 +41,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 # ruby env management
 brew install rbenv;
 echo 'eval "$(rbenv init -)"' >> .zshrc;
+#rbenv install 2.5.3;
 
 # node env management
 brew install nvm;
@@ -63,7 +69,7 @@ brew install redis; # config file /usr/local/etc/redis.conf
 brew install memcached;
 brew install mysql;
 brew install mongodb; # config file /usr/local/etc/mongod.conf
-brew install neo4j; 
+brew install neo4j;
 
 ############### server ###############
 brew install tomcat; # jdk required
