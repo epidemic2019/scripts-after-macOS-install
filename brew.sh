@@ -31,7 +31,7 @@ echo 'eval "$(jenv init -)"' >> ~/.zshrc;
 mkdir -p ~/.jenv/versions
 for path in $(ls /Library/Java/JavaVirtualMachines)
 do
-	jenv add "/Library/Java/JavaVirtualMachines/$path/Contents/Home"	
+	jenv add "/Library/Java/JavaVirtualMachines/$path/Contents/Home" # add java path to jenv
 done
 
 # python env management
@@ -44,6 +44,7 @@ echo 'eval "$(rbenv init -)"' >> .zshrc;
 #rbenv install 2.5.3;
 
 # node env management
+brew install node;
 brew install nvm;
 mkdir ~/.nvm;
 echo 'export NVM_DIR="$HOME/.nvm"
@@ -65,11 +66,12 @@ brew install gradle; # jdk required
 # todo: change gradle source
 
 ############### db ###############
-brew install redis; # config file /usr/local/etc/redis.conf
+brew install redis; # config file at /usr/local/etc/redis.conf
 brew install memcached;
 brew install mysql;
-brew install mongodb; # config file /usr/local/etc/mongod.conf
-brew install neo4j;
+brew install mongodb; # config file at /usr/local/etc/mongod.conf
+brew install neo4j; # config file at /usr/local/Cellar/neo4j/<version>/libexec/conf
+neo4j-admin set-initial-password <password>; # password read from 1password
 
 ############### server ###############
 brew install tomcat; # jdk required
