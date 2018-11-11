@@ -4,7 +4,9 @@
 
 mkdir -p ~/Documents/GitRepos
 cd ~/Documents/GitRepos
-git clone https://github.com/apprenticeharper/DeDRM_tools.git
+wget https://github.com/apprenticeharper/DeDRM_tools/releases/download/v6.6.1/DeDRM_tools_6.6.1.zip; # download DeDRM_tools_<version>.zip
+unzip DeDRM_tools_6.6.1.zip -d DeDRM_tools; # unzip to DeDRM_tools folder
+rm -rf DeDRM_tools_6.6.1.zip; # delete origin file
 git clone https://github.com/dracula/iterm.git
 git clone https://github.com/facebook/create-react-app.git
 git clone https://github.com/neo4j-contrib/neo4j-apoc-procedures.git

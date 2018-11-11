@@ -8,13 +8,13 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ############### tools ###############
 brew install wget
 brew install tree
-brew install aria2
 brew install tmux
 brew install xz
 brew install expect
 brew install imagemagick
 brew install e2fsprogs
 brew install telnet # conflicts with inetutils
+brew install aria2
 
 # install and config proxychains-ng
 brew install proxychains-ng
@@ -51,6 +51,7 @@ echo 'export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc;
 nvm install --lts=Boron;
 nvm install --lts=Carbon;
+nvm alias default system; # set system node as default
 
 ############### language environment ###############
 brew install php;
@@ -72,6 +73,8 @@ brew install mysql;
 brew install mongodb; # config file at /usr/local/etc/mongod.conf
 brew install neo4j; # config file at /usr/local/Cellar/neo4j/<version>/libexec/conf
 neo4j-admin set-initial-password <password>; # password read from 1password
+cd /usr/local/Cellar/neo4j/<version>/libexec/plugins;
+wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.4.0.3/apoc-3.4.0.3-all.jar;
 
 ############### server ###############
 brew install tomcat; # jdk required
