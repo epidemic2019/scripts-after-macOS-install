@@ -6,11 +6,11 @@
 
 运行如下命令
 ```
-curl -fsSL https://raw.githubusercontent.com/re0marb1e/scripts-after-macOS-install/master/mannual.sh | sh
+curl -fsSL https://raw.githubusercontent.com/re0marb1e/scripts-after-macOS-install/master/install.sh | sh
 ```
 
 然后进入项目目录，并执行 `automatic.sh`
 ```
 cd ~/Documents/WorkHome/GitHub/scripts-after-macOS-install
-sh automatic.sh
+sh index.sh
 ```
