@@ -31,11 +31,11 @@ brew install go;
 
 ############### project management tools ###############
 brew install composer;
-# todo: change composer source
+# TODO: change composer source
 brew install maven; # jdk required and conflicts with mvnvm
-# todo: change maven source
+# TODO: change maven source
 brew install gradle; # jdk required
-# todo: change gradle source
+# TODO: change gradle source
 
 ############### db ###############
 brew install redis; # config file at /usr/local/etc/redis.conf
@@ -52,18 +52,14 @@ brew install httpd;
 ############### distributed system  ###############
 brew install zookeeper; # jdk required, config file at /usr/local/etc/zookeeper/
 brew install kafka; # jdk and zookeeper required, config file at /usr/local/etc/kafka/
-# todo: edit kafka config
+# TODO: edit kafka config
 
 ############### blockchains ###############
 brew install ethereum;
 
 ############################## install brew cask packages ##############################
 # quick-look-plugins see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode;
-brew cask install qlstephen;
-brew cask install qlmarkdown;
-brew cask install quicklook-json;
-brew cask install qlimagesize;
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize;
 
 # android related
 brew cask install android-platform-tools
