@@ -9,3 +9,4 @@ echo 'export NVM_DIR="$HOME/.nvm"
 nvm install --lts=Boron;
 nvm install --lts=Carbon;
 nvm alias default system; # set system node as default
+nvm use default;

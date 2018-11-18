@@ -42,10 +42,7 @@ brew install redis; # config file at /usr/local/etc/redis.conf
 brew install memcached;
 brew install mysql;
 brew install mongodb; # config file at /usr/local/etc/mongod.conf
-brew install neo4j; # config file at /usr/local/Cellar/neo4j/<version>/libexec/conf
-neo4j-admin set-initial-password <password>; # password read from 1password
-cd /usr/local/Cellar/neo4j/<version>/libexec/plugins;
-wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.4.0.3/apoc-3.4.0.3-all.jar;
+sh ./src/neo4j.sh # install and config neo4j
 
 ############### server ###############
 brew install tomcat; # jdk required
