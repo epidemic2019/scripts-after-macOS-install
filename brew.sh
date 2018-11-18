@@ -3,14 +3,14 @@
 ############################## install brew packages ##############################
 
 ############### tools ###############
-brew install tree
-brew install tmux
-brew install xz
-brew install expect
-brew install imagemagick
-brew install e2fsprogs
-brew install telnet # conflicts with inetutils
-brew install aria2
+brew install tree;
+brew install expect;
+brew install telnet; # conflicts with inetutils
+brew install tmux;
+brew install xz;
+brew install imagemagick;
+brew install e2fsprogs;
+brew install aria2;
 
 # install and config proxychains-ng
 brew install proxychains-ng
@@ -19,35 +19,10 @@ sed "/\[ProxyList\]/,\${/^[^#\[]/d;}" /usr/local/etc/proxychains.conf > proxycha
 echo "socks5 127.0.0.1 1086" >> proxychains.conf # add socks5 to user config
 
 ############### env management tools ###############
-
-# java env management
-brew install jenv;
-echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc;
-echo 'eval "$(jenv init -)"' >> ~/.zshrc;
-mkdir -p ~/.jenv/versions
-for path in $(ls /Library/Java/JavaVirtualMachines)
-do
-	jenv add "/Library/Java/JavaVirtualMachines/$path/Contents/Home" # add java path to jenv
-done
-
-# python env management
-brew install pyenv;
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc;
-
-# ruby env management
-brew install rbenv;
-echo 'eval "$(rbenv init -)"' >> .zshrc;
-#rbenv install 2.5.3;
-
-# node env management
-brew install node;
-brew install nvm;
-mkdir ~/.nvm;
-echo 'export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"' >> ~/.zshrc;
-nvm install --lts=Boron;
-nvm install --lts=Carbon;
-nvm alias default system; # set system node as default
+sh ./src/jenv.sh # java env management
+sh ./src/pyenv.sh # python env management
+sh ./src/rbenv.sh # ruby env management
+sh ./src/nvm.sh # node env management
 
 ############### language environment ###############
 brew install php;
