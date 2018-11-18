@@ -6,7 +6,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ############################## install brew packages ##############################
 
 ############### tools ###############
-brew install wget
 brew install tree
 brew install tmux
 brew install xz
