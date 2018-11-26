@@ -1,6 +1,48 @@
 # Mac软件
 
-## System Utilities
+## From Mac App Store
+
+## From Setapp
+
+### Lifestyle
+
+-   [Elemedia Player](https://setapp.com/apps/elmedia-player)
+
+-   [Flume](https://setapp.com/apps/flume)
+
+-   [Folx](https://setapp.com/apps/folx)
+
+### Creativity
+
+-   [Sip](https://setapp.com/apps/sip)
+
+### Developer Tools
+
+-   [TablePlus](https://setapp.com/apps/tableplus)
+
+-   [SQLPro Studio](https://setapp.com/apps/sqlpro-studio)
+
+### Productivity
+
+-   [ForkLift](https://setapp.com/apps/forklift)
+
+-   [iThoughtsX](https://setapp.com/apps/ithoughtsx)
+
+-   [XMind](https://setapp.com/apps/xmind)
+
+### Mac Hacks
+
+-   [BetterZip](https://setapp.com/apps/betterzip)
+
+-   [Shimo](https://setapp.com/apps/shimo)
+
+### Maintenance 
+
+-   [CleanMyMac X](https://setapp.com/apps/cleanmymac-x)
+
+## From Official Website
+
+### System Utilities
 
 -   [1Password 7](https://1password.com/)
 
@@ -24,17 +66,13 @@
     
     `curl -fsSL https://raw.githubusercontent.com/onmyway133/FinderGo/master/install.sh | sh`
 
-## Life
+### Life
 
 -   [QQ](https://im.qq.com/macqq/)
 
 -   [钉钉](https://www.dingtalk.com/)
 
 -   [阿里旺旺](https://alimarket.taobao.com/markets/qnww/portal-group/ww/index)
-
--   [Flume](https://flumeapp.com/)
-
--   [Folx](https://mac.eltima.com/cn/download-manager.html)
 
 -   [mpv](https://mpv.io/)
 
@@ -44,9 +82,7 @@
 
 -   [Downie](https://software.charliemonroe.net/downie.php)
 
--   [BetterZip](https://macitbetter.com/)
-
-## Work
+### Work
 
 -   [Visual Studio Code](https://code.visualstudio.com/)
 
