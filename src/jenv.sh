@@ -4,6 +4,7 @@
 brew install jenv;
 echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc;
 echo 'eval "$(jenv init -)"' >> ~/.zshrc;
+source ~/.zshrc;
 mkdir -p ~/.jenv/versions;
 for path in $(ls /Library/Java/JavaVirtualMachines)
 do
