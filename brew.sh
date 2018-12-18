@@ -39,10 +39,10 @@ brew install gradle; # jdk required
 
 ############### db ###############
 brew install redis; # config file at /usr/local/etc/redis.conf
-brew install memcached;
-brew install mysql;
+brew install memcached; 
 brew install mongodb; # config file at /usr/local/etc/mongod.conf
-sh ./src/neo4j.sh # install and config neo4j
+sh ./src/db/mysql.sh # install and config mysql
+sh ./src/db/neo4j.sh # install and config neo4j
 
 ############### server ###############
 brew install tomcat; # jdk required
