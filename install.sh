@@ -17,7 +17,3 @@ brew install wget;
 
 ############################## git clone this repository ##############################
 git clone https://github.com/re0marb1e/scripts-after-macOS-install ~/Documents/WorkHome/GitHub/scripts-after-macOS-install;
-
-cd ~/Documents/WorkHome/GitHub/scripts-after-macOS-install;
-
-# sh ./index.sh;

@@ -9,7 +9,7 @@
 curl -fsSL https://raw.githubusercontent.com/re0marb1e/scripts-after-macOS-install/master/install.sh | sh
 ```
 
-然后进入项目目录，并执行 `automatic.sh`
+然后进入项目目录，并执行 `index.sh`
 ```
 cd ~/Documents/WorkHome/GitHub/scripts-after-macOS-install
 sh index.sh
