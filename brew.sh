@@ -62,4 +62,4 @@ brew install ethereum;
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize;
 
 # android related
-brew cask install android-platform-tools
+brew cask install android-platform-tools;

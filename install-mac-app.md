@@ -2,6 +2,48 @@
 
 ## From Mac App Store
 
+### Apple apps
+
+-   [Pages](https://itunes.apple.com/us/app/pages/id409201541?mt=12)
+
+-   [Numbers](https://itunes.apple.com/us/app/numbers/id409203825?mt=12)
+
+-   [Keynote](https://itunes.apple.com/us/app/keynote/id409183694?mt=12)
+
+-   [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+
+-   [GarageBand](https://itunes.apple.com/us/app/garageband/id682658836?mt=12)
+
+-   [iMovie](https://itunes.apple.com/us/app/imovie/id408981434?mt=12)
+
+### Other Apps
+
+-   [Airmail 3](https://itunes.apple.com/us/app/airmail-3/id918858936?mt=12)
+
+-   [Evernote](https://itunes.apple.com/us/app/evernote/id406056744?mt=12)
+
+-   [Fantastical 2](https://itunes.apple.com/us/app/fantastical-2/id975937182?mt=12)
+
+-   [MWeb](https://itunes.apple.com/us/app/mweb/id1403919533?mt=12)
+
+-   [PDF Expert](https://itunes.apple.com/us/app/pdf-expert-edit-and-sign-pdf/id1055273043?mt=12)
+
+-   [Pixelmator](https://itunes.apple.com/us/app/pixelmator/id407963104?mt=12)
+
+-   [Reeder 3](https://itunes.apple.com/us/app/reeder-3/id880001334?mt=12)
+
+-   [Snappy](https://itunes.apple.com/us/app/snappy-snapshots-the-smart-way/id512617038?mt=12)
+
+-   [Soulver](https://itunes.apple.com/us/app/soulver/id413965349?mt=12)
+
+-   [Things 3](https://itunes.apple.com/us/app/things-3/id904280696?mt=12)
+
+-   [Unclutter](https://itunes.apple.com/us/app/unclutter/id577085396?mt=12)
+
+-   [Unsplash Wallpapers](https://itunes.apple.com/us/app/unsplash-wallpapers/id1284863847?mt=12)
+
+-   [Wechat](https://itunes.apple.com/us/app/wechat/id836500024?mt=12)
+
 ## From Setapp
 
 ### Lifestyle

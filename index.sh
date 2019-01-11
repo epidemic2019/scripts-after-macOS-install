@@ -2,6 +2,6 @@
 
 sh document.sh
 sh brew.sh
-sh npm.sh
-sh pip.sh
-sh gem.sh
+sh ./src/pm/npm.sh
+sh ./src/pm/pip.sh
+sh ./src/pm/gem.sh

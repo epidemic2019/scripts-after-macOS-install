@@ -9,7 +9,6 @@ unzip DeDRM_tools_6.6.1.zip -d DeDRM_tools; # unzip to DeDRM_tools folder
 rm -rf DeDRM_tools_6.6.1.zip; # delete origin file
 git clone https://github.com/dracula/iterm.git
 git clone https://github.com/facebook/create-react-app.git
-git clone https://github.com/neo4j-contrib/neo4j-apoc-procedures.git
 
 ############################## WorkHome ##############################
 
