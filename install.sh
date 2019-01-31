@@ -13,7 +13,7 @@ git config --global user.name "re0marb1e";
 git config --global user.email "re0marb1e@outlook.com";
 
 # install wget
-brew install wget;
+brew install wget; # Internet file retriever
 
 ############################## git clone this repository ##############################
 git clone https://github.com/re0marb1e/scripts-after-macOS-install ~/Documents/WorkHome/GitHub/scripts-after-macOS-install;
